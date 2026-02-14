@@ -15,9 +15,6 @@ class Calculator:
         return result
     
     def div(self, a, b):
-        if b == 0:
-            none = "деление на 0))"
-            return none
         result = a / b
         return round(result, 2)
     
